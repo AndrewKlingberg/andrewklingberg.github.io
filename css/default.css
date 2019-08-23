@@ -42,16 +42,18 @@ time, mark, audio, video {
   position: absolute;
   width: 100%;
   height: 100%;
-	background: $background;
+background: $background;
 }
 
 .text {
 	position: absolute;
-	text-align: center;
+	height: 1000px;
+   min-height: 800px;
+   width: 100%;
 	top: 50%;
 	right: 50%;
 	transform: translate(50%,-50%);
-	color: $text;
+
 }
 
 h11 {
